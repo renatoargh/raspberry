@@ -93,12 +93,12 @@ async.series([
         throw err;
     }
 
-    var linha = [
+    var line = [
         new Date().valueOf(),
         results[2],
         results[3]
     ].join(';') + '\n';
 
-    console.log(linha);
-    fs.appendFileSync(__dirname + '/th-log.txt', linha);
+    console.log(line);
+    fs.appendFileSync(__dirname + '/th-log.txt', line);
 });
