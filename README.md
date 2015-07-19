@@ -1,5 +1,5 @@
 # Raspberry Pi
-A repo for learning raspberry pi
+A repository for learning Raspberry Pi!
 
 ### Electronics
 - [H-Bridge](https://github.com/renatoargh/raspberry/tree/master/electronics/h-bridge)
