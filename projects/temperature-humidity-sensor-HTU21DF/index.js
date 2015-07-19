@@ -1,8 +1,7 @@
-// Run-me with sudo
+// To be ran with `sudo`
 
 var async = require('async'),
     i2c = require('i2c'),
-    fs = require('fs'),
     wire = new i2c('0x40', {
         device: '/dev/i2c-1'
     });
@@ -99,6 +98,5 @@ async.series([
         results[3]
     ].join(';') + '\n';
 
-    console.log(line);
-    fs.appendFileSync(__dirname + '/th-log.txt', line);
+    process.stdout.write(line);
 });
