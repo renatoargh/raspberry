@@ -1,6 +1,9 @@
 # Raspberry Pi
 A repo for learning raspberry pi
 
+### Electronics
+- [H-Bridge](https://github.com/renatoargh/raspberry/tree/master/electronics/h-bridge)
+
 ### Projects
 - [Reading temperature and humidity data from HTU21D-F sensor](https://github.com/renatoargh/raspberry/tree/master/projects/temperature-humidity-sensor-HTU21DF)
 
